@@ -9,12 +9,17 @@
     <link rel="stylesheet" href="services main.css" />
   </head>
   <body>
+    <a href="index.html">
+	<img 
+	class="back"
+	src="image--1-removebgpreview-3@2x.png">
+	</a>
     <h1><img src="ez bg 3.png" width="200" height="100" /></h1>
     <div id="landing">
       <div class="container">
         <div class="options-list">
           <a href="#">
-            <button class="btn">
+            <button class="btn" onclick="confirm()">
               <img
                 src="carwash.png"
                 alt="carwash icon"
@@ -23,7 +28,7 @@
             </button>
           </a>
           <a href="#">
-            <button class="btn">
+            <button class="btn" onclick="confirm()">
               <img
                 src="engine.png"
                 alt="engine wash icon"
@@ -32,7 +37,7 @@
             </button>
           </a>
           <a href="#">
-            <button class="btn">
+            <button class="btn" onclick="confirm()">
               <img
                 src="change oil.png"
                 alt="change oil icon"
@@ -41,7 +46,7 @@
             </button>
           </a>
           <a href="#">
-            <button class="btn">
+            <button class="btn" onclick="confirm()">
               <img
                 src="interior.png"
                 alt="interior icon"
@@ -52,5 +57,16 @@
         </div>
       </div>
     </div>
+
+<script>
+function confirm() {
+alert("Service Confirmed. Click OK to return.");
+window.location="landing client.html";
+}
+</script>
+
   </body>
 </html>
+
+
+
